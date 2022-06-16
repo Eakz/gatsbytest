@@ -16,9 +16,11 @@ const config: GatsbyConfig = {
             options: {
                 aliases: {
                     src: './src',
-                }, // <- will be used as a root dir
+                },
             },
         },
+        'gatsby-plugin-image',
+        'gatsby-plugin-sharp',
     ],
 };
 
